@@ -1,0 +1,23 @@
+{
+  "name": "Nacho-Fibre",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-differently/Nacho-Fibre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-differently/Nacho-Fibre/issues"
+  },
+  "homepage": "https://github.com/code-differently/Nacho-Fibre#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
