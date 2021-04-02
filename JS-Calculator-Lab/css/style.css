@@ -1,0 +1,173 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2CC6B9;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+.heading {
+    margin: 0px;
+    grid-area: heading;
+    font-size: 1em;
+}
+
+
+.display {
+    grid-area: display;
+    border: solid #2CC6B9;
+    border-width: thin;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.buttons {
+    grid-area: buttons;
+}
+
+.button {
+    margin: 10px;
+    border: solid #16635C;
+    border-width: thin;
+    border-radius: 5px;
+    background-color: #F1F3F4;
+    font-weight: bold;
+}
+
+.container {
+    margin: auto;
+    border: solid gray;
+    border-width: thin;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 5% 15% auto;
+    grid-template-areas:
+        "heading"
+        "display"
+        "buttons";
+}
+
+.button-lparentheses {
+    grid-area: lparentheses;
+}
+
+.button-rparentheses {
+    grid-area: rparentheses;
+}
+
+.button-percentage {
+    grid-area: percentage;
+}
+
+.button-clear {
+    grid-area: clear;
+}
+
+.button-seven {
+    grid-area: seven;
+}
+
+.button-eight {
+    grid-area: eight;
+}
+
+.button-nine {
+    grid-area: nine;
+}
+
+.button-divide {
+    grid-area: divide;
+    font-size: 15px;
+}
+
+.button-four {
+    grid-area: four;
+}
+
+.button-five {
+    grid-area: five;
+}
+
+.button-six {
+    grid-area: six;
+}
+
+.button-multiply {
+    grid-area: multiply;
+}
+
+.button-one {
+    grid-area: one;
+}
+
+.button-two {
+    grid-area: two;
+}
+
+.button-three {
+    grid-area: three;
+}
+
+.button-subtract {
+    grid-area: subtract;
+    font-size: 15px;
+}
+
+.button-zero {
+    grid-area: zero;
+}
+
+.button-decimal {
+    grid-area: decimal;
+    font-size: 25px;
+}
+
+.button-equals {
+    grid-area: equals;
+    color: white;
+    background-color: #4285F4;
+    font-size: 25px;
+}
+
+.button-add {
+    grid-area: add;
+    font-size: 15px;
+}
+
+.buttons {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "lparentheses rparentheses percentage clear"
+        "seven eight nine divide"
+        "four five six multiply"
+        "one two three subtract"
+        "zero decimal equals add";
+}
+
+.button-lparentheses, .button-seven, .button-four, .button-one, .button-zero {
+    margin-left: 0px;
+}
+
+.button-clear, .button-divide, .button-multiply, .button-subtract, .button-add {
+    margin-right: 0px;
+}
+
+.button-lparentheses, .button-rparentheses, .button-percentage, .button-clear, .button-divide, .button-multiply, .button-subtract, .button-add {
+    background-color: #A3C3C0;
+}
